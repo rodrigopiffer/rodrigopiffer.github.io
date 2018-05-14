@@ -1,0 +1,276 @@
+/*------ GLOBAL ------*/
+*{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	outline: 0px;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+.clearfix::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+@font-face { font-family: circular std; src: url('fonts/circular-std-book/CircularStd-Black.otf'); }
+@font-face { font-family: circular std; font-weight: bold; src: url('fonts/circular-std-book/CircularStd-Bold.otf');}
+@font-face { font-family: circular std; src: url('fonts/circular-std-book/CircularStd-Book.otf');}
+
+html{
+	font-family: circular std, sans-serif;
+	font-weight: 100;
+}
+
+body{
+	width: 60%;
+	margin: auto;
+	background-image: url(images/back.png);
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.red{
+	color:#FC5C65;
+}
+
+h1{
+	font-size: 40px;
+	font-weight: 400;
+	color: #17191A;
+}
+
+h2{
+	font-size: 35px;
+	font-weight: 400;
+	color: #17191A;
+}
+
+h5{
+	font-size: 20px;
+	margin-top: 10px;
+	color: #17191A;
+}
+
+p{
+	color: #8F9EA5;
+	opacity: 0.8;
+	font-weight: 100;
+	margin-top: 10PX;
+	font-size: 20px;
+}
+
+
+/*------ NAV ------*/
+
+.nav{
+	display: flex;
+	align-items: center;
+	height: 100px;
+}
+
+.contactMe, .navIcons{
+	flex: 1;
+}
+
+.navIcons{
+	text-align: right;
+}
+
+.navIcons a, .contactMe a, .contactMe img{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.navIcons a{
+	margin: 15px;
+}
+
+.contactMe a{
+	color: #FC5C65;
+	text-decoration: none;
+}
+
+.contactMe img{
+	margin-right: 10px;
+}
+
+
+/*------ Landing ------*/
+
+.landing{
+	height: 100vh;
+	position: relative;
+}
+
+.landingWrapper{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+ul{
+	list-style: none;
+	margin-top: 30px;
+	line-height: 30px;
+}
+
+.landingL{
+	margin-top: 4em;
+}
+
+.scroll{
+	position: absolute;
+	bottom: 180px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+/*------ Skills ------*/
+
+.skills{
+	text-align: center;
+	margin-bottom: 20em;
+}
+
+.skills p{
+	margin-bottom: 30px;
+}
+
+.skills img{
+	width: 40px;
+	margin: 0 15px;
+}
+
+
+/*------ Work left ------*/
+
+.work{
+	width: 100%;
+	position: relative;
+	margin-bottom: 20em;
+}
+
+.work > .workText{
+	position: absolute;
+	top: 85px;
+}
+
+.work > .workText > .underline{
+	display: block;
+	background-color: #FC5C65;
+	height: 3px;
+	width: 61px;
+	margin-top: 5px;
+}
+
+.work > .workImg{
+	float: right;
+	width: 85%;
+	-webkit-box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
+	-moz-box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
+	box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
+}
+
+.work ul{
+	position: absolute;
+	bottom: 0;
+	right: 86%;
+}
+
+.work ul li{
+	margin-top: 20px;
+
+}
+
+
+/*------ Work right ------*/
+
+.work2{
+	width: 100%;
+	position: relative;
+	margin-bottom: 20em;
+}
+
+.work2 > .workText{
+	position: absolute;
+	top: 85px;
+	right: 0;
+	text-align: right;
+}
+
+.work2 > .workText > .underline{
+	display: block;
+	background-color: #FC5C65;
+	height: 3px;
+	width: 61px;
+	margin-top: 5px;
+	float: right;
+}
+
+.work2 > .workImg{
+	float: left;
+	width: 85%;
+	-webkit-box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
+	-moz-box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
+	box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
+}
+
+.work2 ul{
+	position: absolute;
+	bottom: 0;
+	left: 86%;
+}
+
+.work2 ul li{
+	margin-top: 20px;
+
+}
+
+
+/*------ Work right and left ------*/
+
+.work a, .work2 a{
+	text-decoration: none;
+	color: #17191A;
+}
+
+/*------ Footer ------*/
+
+.footer{
+	padding-top: 300px;
+	padding-bottom: 7em;
+	text-align: center;
+}
+
+.footer a{
+	text-decoration: none;
+}
+
+.underlineSmall{
+	display: block;
+	height: 3px;
+	width: 55px;
+	margin: 5px auto 0 auto;
+	background-color: #FC5C65;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
